@@ -1,0 +1,15 @@
+Queue ke sare elements nikl kr Queue emoty hone tk
+
+// step 1 --> remove one data
+
+// step 2 --> agr visited vertex hai .. & usiko wapis remove kia jara hai Queue se.. it means 2 Paths hai
+			// means CYCLE detect hori hai Graph me		// 2 alg alg graphs hai jinke v1 v2 kv nhi milege so ek hi graph me ghumre
+			
+// step 3 --> visited mark krdo Set me
+
+// step 4 --> self work krlo jo krna hai --> this time meko src == des mil rhe kya check krna hai.. connext hai kya?
+			// remove kiya hua vertex des tk phoch jaye mtlb src se hi aaya hai na remov wale vertex tk.. toh remove wala pohoch gya des pe mtlb src v phoch jayega
+				
+// step 5 --> ab iske neighbours ko add krdo agr honge toh (add child if exists)
+			// unvisited neighbours ko hi add krna hai only
+      // agr visited nhi hai neighbour toh hi add krege
